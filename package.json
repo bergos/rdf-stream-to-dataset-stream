@@ -1,6 +1,6 @@
 {
   "name": "rdf-stream-to-dataset-stream",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Combines quads of a RDF/JS quad stream to a stream of RDF/JS Dataset chunks",
   "main": "index.js",
   "scripts": {
