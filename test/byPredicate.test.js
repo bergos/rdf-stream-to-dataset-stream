@@ -18,9 +18,7 @@ describe('byPredicate', () => {
   it('should throw an error if no predicate is given', () => {
     assert.throws(() => {
       byPredicate()
-    }, {
-      message: new RegExp('required')
-    })
+    }, new RegExp('required'))
   })
 
   it('should return a duplex stream', () => {

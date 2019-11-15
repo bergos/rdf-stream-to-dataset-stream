@@ -19,9 +19,7 @@ describe('byType', () => {
   it('should throw an error if no type is given', () => {
     assert.throws(() => {
       byType()
-    }, {
-      message: new RegExp('required')
-    })
+    }, new RegExp('required'))
   })
 
   it('should return a duplex stream', () => {
